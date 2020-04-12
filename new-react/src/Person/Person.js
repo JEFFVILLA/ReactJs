@@ -3,9 +3,9 @@ import "./Person.css";
 const person = (props) => {
   return (
     <div className='Person'>
-      <h4 onClick={props.clickHandler}>
+      <p onClick={props.click}>
         Hello I am a {props.name} and I have {props.age} years Old!
-      </h4>
+      </p>
       <input type='text' onChange={props.change} value={props.name}></input>
     </div>
   );
