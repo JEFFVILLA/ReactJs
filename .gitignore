@@ -2,3 +2,5 @@ new-react/node_modules
 my-app/node_modules
 list-conditionals/node_modules
 taskapp/node_modules
+graphql-react-project/backend/node_modules
+graphql-react-project/client/node_modules
